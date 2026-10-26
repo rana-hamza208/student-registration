@@ -1,0 +1,130 @@
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Navigation links */
+nav {
+    background-color: navy;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Main heading */
+h1 {
+    color: navy;
+    text-align: center;
+}
+
+h2 {
+    color: #2347a5;
+}
+
+/* Home page header */
+header {
+    background-color: #dce8f7;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Main content */
+main {
+    text-align: center;
+    margin: 30px auto;
+    max-width: 700px;
+}
+
+/* Round picture */
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Registration form border */
+form {
+    background-color: white;
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 25px;
+    border: 2px solid navy;
+    border-radius: 10px;
+    text-align: left;
+}
+
+/* Form labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+/* Form fields */
+input,
+select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+/* Buttons */
+button,
+.button {
+    display: inline-block;
+    background-color: navy;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:hover,
+.button:hover {
+    background-color: #2347a5;
+}
+
+/* Thank-you message */
+.message {
+    background-color: white;
+    padding: 30px;
+    border: 2px solid navy;
+    border-radius: 10px;
+}
+
+/* Mobile layout */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    nav a {
+        margin: 0 8px;
+    }
+}
